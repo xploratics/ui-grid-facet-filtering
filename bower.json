@@ -1,0 +1,24 @@
+{
+  "name": "ui-grid-facet-filtering",
+  "homepage": "https://github.com/xploratics/ui-grid-facet-filtering",
+  "authors": [
+    "Dany Laporte <dany_laporte@hotmail.com>"
+  ],
+  "description": "Add Filtering by facet for the angular/ui-grid",
+  "main": "lib.js",
+  "keywords": [
+    "ui-grid",
+    "grid",
+    "datagrid",
+    "angular",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

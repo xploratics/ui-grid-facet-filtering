@@ -1,2 +1,2 @@
-# ui-grid-persisted-state
-Persist the sort, pinned columns, order of columns per user for the angular/ui-grid
+# ui-grid-facet-filtering
+  Add Filtering by facet for the angular/ui-grid
