@@ -2,7 +2,8 @@ exports.config = {
   sauceUser: process.env.SAUCE_USERNAME,
   sauceKey: process.env.SAUCE_ACCESS_KEY,
 
-  //seleniumAddress: 'http://ondemand.saucelabs.com:80/wd/hub',
+  seleniumAddress: 'http://ondemand.saucelabs.com:80/wd/hub',
+  //seleniumAddress: 'http://localhost:4444/wd/hub',
   specs: ['test/e2e/*.js'],
 
   // restartBrowserBetweenTests: true,
@@ -11,8 +12,10 @@ exports.config = {
       var express = require('express');
       var app = express();
       
-      app.use(express.static('.'));
-      app.listen(8888);
+      app.use(express.static('./'));
+      app.listen(8888, function () {
+          console.log('listen to 8888');
+      });
   },
 
   onPrepare: function() {
